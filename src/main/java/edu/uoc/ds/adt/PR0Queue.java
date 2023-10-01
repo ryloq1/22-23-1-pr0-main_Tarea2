@@ -21,6 +21,7 @@ public class PR0Queue {
 
 
     public String clearFullQueue() {
+        int i=0;
         StringBuilder sb = new StringBuilder();
 
         while (!queue.isEmpty()) {
